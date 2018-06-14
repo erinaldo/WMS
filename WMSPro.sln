@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SSLs", "SSLs\SSLs.vbproj", "{94A3E636-98F8-4E24-A002-A343465A200A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A3E636-98F8-4E24-A002-A343465A200A}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{94A3E636-98F8-4E24-A002-A343465A200A}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

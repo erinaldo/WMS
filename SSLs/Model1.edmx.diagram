@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c916b3d3d6d84a84ad17083142994c1f" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="PTGwmsModel.Company" Width="1.5" PointX="12" PointY="65.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.Menu" Width="1.5" PointX="1.5" PointY="38.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.MenuAccess" Width="1.5" PointX="3.75" PointY="42.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.OwnerAccess" Width="1.5" PointX="15" PointY="33.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.Role" Width="1.5" PointX="1.5" PointY="42.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.WarehouseAccess" Width="1.5" PointX="3" PointY="48.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.ChangeSalesOrder" Width="1.5" PointX="14.75" PointY="16.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.ChangeSalesOrderDetails" Width="1.5" PointX="17" PointY="15.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.CheckStockAvailable" Width="1.5" PointX="10.75" PointY="9.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.CheckStockAvailableDetails" Width="1.5" PointX="13" PointY="8.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.GoodsIssueOrder" Width="1.5" PointX="15.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.GoodsIssueOrderDetails" Width="1.5" PointX="15.75" PointY="4.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.ReturnDeliveryOrder" Width="1.5" PointX="10.75" PointY="2.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.ReturnDeliveryOrderDetails" Width="1.5" PointX="13" PointY="1.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.SaveDeliveryOrder" Width="1.5" PointX="5.75" PointY="11.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.SaveDeliveryOrderDetails" Width="1.5" PointX="8" PointY="10.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.SaveSalesOrder" Width="1.5" PointX="0.75" PointY="11.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.SaveSalesOrderDetails" Width="1.5" PointX="3" PointY="10.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.SD004Dtl" Width="1.5" PointX="8" PointY="6.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.SD004HD" Width="1.5" PointX="5.75" PointY="6.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.SD007CancelGIGR" Width="1.5" PointX="15.75" PointY="9.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.WmsNoGenerate" Width="1.5" PointX="0.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.BoxSize" Width="1.5" PointX="2.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.Drivers" Width="1.5" PointX="4.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.Otherfees" Width="1.5" PointX="6.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.TravelFee" Width="1.5" PointX="12" PointY="17" />
+        <EntityTypeShape EntityType="PTGwmsModel.Vehicles" Width="1.5" PointX="3" PointY="3.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.VehicleType" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.AdjustReason" Width="1.5" PointX="8.75" PointY="16.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.BatchRunning" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.Branch" Width="1.5" PointX="17.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.CheckStockLocation" Width="1.5" PointX="3" PointY="58" />
+        <EntityTypeShape EntityType="PTGwmsModel.CostCenter" Width="1.5" PointX="4.5" PointY="66.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.CurrentStocks" Width="1.5" PointX="12" PointY="51.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.Customers" Width="1.5" PointX="4.5" PointY="70.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.CycleCountDTL" Width="1.5" PointX="19.5" PointY="48.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.CycleCountHD" Width="1.5" PointX="6" PointY="57.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.Department" Width="1.5" PointX="5.75" PointY="1.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.Employee" Width="1.5" PointX="8" PointY="1" />
+        <EntityTypeShape EntityType="PTGwmsModel.IOMaster" Width="1.5" PointX="6.75" PointY="43.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.IssueSum" Width="1.5" PointX="12" PointY="43.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.ItemStatus" Width="1.5" PointX="9.75" PointY="35" />
+        <EntityTypeShape EntityType="PTGwmsModel.LabelLog" Width="1.5" PointX="21.75" PointY="36.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.Locations" Width="1.5" PointX="14.25" PointY="49" />
+        <EntityTypeShape EntityType="PTGwmsModel.LocationType" Width="1.5" PointX="12" PointY="71.25" />
+        <EntityTypeShape EntityType="PTGwmsModel.ManageZone" Width="1.5" PointX="16.5" PointY="41.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.MaterialTrans" Width="1.5" PointX="6" PointY="52.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.MovementType" Width="1.5" PointX="17.75" PointY="5.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.Owners" Width="1.5" PointX="9.75" PointY="27.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.PhyCountHD" Width="1.5" PointX="6" PointY="47.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickingType" Width="1.5" PointX="9.75" PointY="40.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickTempOrderDTL" Width="1.5" PointX="19.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickTempOrderHD" Width="1.5" PointX="19.75" PointY="6.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickTote" Width="1.5" PointX="11.25" PointY="60" />
+        <EntityTypeShape EntityType="PTGwmsModel.ProductBrands" Width="1.5" PointX="12" PointY="34.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.ProductDetails" Width="1.5" PointX="19.5" PointY="34.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.ProductGroups" Width="1.5" PointX="12" PointY="30.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.Products" Width="1.5" PointX="14.25" PointY="38.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.ProductType" Width="1.5" PointX="12" PointY="38.625" />
+        <EntityTypeShape EntityType="PTGwmsModel.ProductUnit" Width="1.5" PointX="17.25" PointY="35.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvDetails" Width="1.5" PointX="9" PointY="59.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvHeader" Width="1.5" PointX="14.25" PointY="76.125" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvLocation" Width="1.5" PointX="16.5" PointY="53" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvTempDetail" Width="1.5" PointX="19.75" PointY="12.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvTempHeader" Width="1.5" PointX="0.75" PointY="20.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvTempSetPallet" Width="1.5" PointX="6.75" PointY="20.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvType" Width="1.5" PointX="12" PointY="75.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.RTVRunning" Width="1.5" PointX="19.75" PointY="20.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.StockCard" Width="1.5" PointX="21.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.StockOnhand" Width="1.5" PointX="3" PointY="52.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.TransferDTL" Width="1.5" PointX="16.5" PointY="81.5" />
+        <EntityTypeShape EntityType="PTGwmsModel.TransferHD" Width="1.5" PointX="4" PointY="82.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.Transports" Width="1.5" PointX="9.75" PointY="21.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.Vendor" Width="1.5" PointX="12" PointY="79.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.Warehouse" Width="1.5" PointX="0.75" PointY="51.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.Zone" Width="1.5" PointX="9" PointY="45.875" />
+        <AssociationConnector Association="PTGwmsModel.FK_Locations_Company" />
+        <AssociationConnector Association="PTGwmsModel.FK_Products_Company" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvHeader_Company" />
+        <AssociationConnector Association="PTGwmsModel.FK_Zone_Company" />
+        <AssociationConnector Association="PTGwmsModel.FK_MenuAccess_Menu" />
+        <AssociationConnector Association="PTGwmsModel.FK_MenuAccess_Role" />
+        <AssociationConnector Association="PTGwmsModel.FK_OwnerAccess_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_WarehouseAccess_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_ChangeSalesOrderDetails_ChangeSalesOrder" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockAvailableDetails_CheckStockAvailable" />
+        <AssociationConnector Association="PTGwmsModel.FK_ReturnDeliveryOrderDetails_ReturnDeliveryOrder" />
+        <AssociationConnector Association="PTGwmsModel.FK_SaveDeliveryOrderDetails_SaveDeliveryOrder" />
+        <AssociationConnector Association="PTGwmsModel.FK_SaveSalesOrderDetails_SaveSalesOrder" />
+        <AssociationConnector Association="PTGwmsModel.FK_SD004Dtl_SD004HD" />
+        <AssociationConnector Association="PTGwmsModel.FK_TravelFee_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_TravelFee_VehicleType" />
+        <AssociationConnector Association="PTGwmsModel.FK_Vehicles_VehicleType" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_Locations" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_ProductUnit" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_Vendor" />
+        <AssociationConnector Association="PTGwmsModel.FK_CheckStockLocation_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_Locations" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_ProductUnit" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_Vendor" />
+        <AssociationConnector Association="PTGwmsModel.FK_CurrentStocks_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_Customers_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountDTL_CycleCountHD" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountDTL_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountDTL_Locations" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountDTL_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountDTL_ProductUnit" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountDTL_Vendor" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountHD_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_CycleCountHD_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_Employee_Department" />
+        <AssociationConnector Association="PTGwmsModel.FK_IssueSum_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_IssueSum_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_IssueSum_PickingType" />
+        <AssociationConnector Association="PTGwmsModel.FK_IssueSum_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_IssueSum_Transports" />
+        <AssociationConnector Association="PTGwmsModel.FK_IssueSum_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvDetails_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvLocation_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_StockOnhand_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_TransferDTL_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_LabelLog_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_LabelLog_ProductDetails" />
+        <AssociationConnector Association="PTGwmsModel.FK_Locations_LocationType" />
+        <AssociationConnector Association="PTGwmsModel.FK_Locations_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_Locations_Zone" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvLocation_Locations" />
+        <AssociationConnector Association="PTGwmsModel.FK_TransferDTL_Locations" />
+        <AssociationConnector Association="PTGwmsModel.FK_ManageZone_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_ManageZone_Zone" />
+        <AssociationConnector Association="PTGwmsModel.FK_MaterialTrans_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_MaterialTrans_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_MaterialTrans_ProductUnit" />
+        <AssociationConnector Association="PTGwmsModel.FK_MaterialTrans_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_PhyCountHD_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_Products_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvHeader_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_StockOnhand_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_PhyCountHD_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_Products_ProductBrands" />
+        <AssociationConnector Association="PTGwmsModel.FK_ProductDetails_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_ProductDetails_ProductUnit" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvDetails_ProductDetails" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvLocation_ProductDetails" />
+        <AssociationConnector Association="PTGwmsModel.FK_Products_ProductGroups" />
+        <AssociationConnector Association="PTGwmsModel.FK_Products_ProductType" />
+        <AssociationConnector Association="PTGwmsModel.FK_Products_Zone" />
+        <AssociationConnector Association="PTGwmsModel.FK_StockOnhand_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_TransferDTL_Products" />
+        <AssociationConnector Association="PTGwmsModel.FK_TransferDTL_ProductUnit" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvDetails_RcvHeader" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvDetails_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvHeader_RcvType" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvHeader_Vendor" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvLocation_RcvHeader" />
+        <AssociationConnector Association="PTGwmsModel.FK_RcvLocation_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_StockOnhand_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_TransferDTL_TransferHD" />
+        <AssociationConnector Association="PTGwmsModel.FK_TransferHD_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_Zone_Warehouse" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_GL100AP" Width="1.5" PointX="38.75" PointY="3.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_GL100AR" Width="1.5" PointX="40.625" PointY="3.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_PickConfirm" Width="1.5" PointX="29.5" PointY="3" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_PickStatus" Width="1.5" PointX="31.5" PointY="3" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_TransferConfirm" Width="1.5" PointX="42.625" PointY="3.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_LocationEmpty" Width="1.5" PointX="33" PointY="12.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_RPTCycleCount" Width="1.5" PointX="42.625" PointY="10.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_RTPPrintInternalBar" Width="1.5" PointX="42.625" PointY="17.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_StockBal" Width="1.5" PointX="42.625" PointY="21.375" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_StockCard" Width="1.5" PointX="35.25" PointY="19.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_StockLocation" Width="1.5" PointX="30" PointY="13.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_SumRcvDetail" Width="1.5" PointX="35" PointY="13.875" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_RcvReport" Width="1.5" PointX="35.375" PointY="3.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_RcvStatus" Width="1.5" PointX="32.625" PointY="19.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_PhyCount" Width="1.5" PointX="3.375" PointY="21.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.CurrentStocksLog" Width="1.5" PointX="12.375" PointY="21.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_InterfaceOrder" Width="1.5" PointX="14.375" PointY="21.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.PhyCountDTL" Width="1.5" PointX="19.5" PointY="42" />
+        <AssociationConnector Association="PTGwmsModel.FK_PhyCountDTL_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_PhyCountDTL_PhyCountHD" />
+        <AssociationConnector Association="PTGwmsModel.FK_PhyCountDTL_Products" />
+        <EntityTypeShape EntityType="PTGwmsModel.TransferLog" Width="1.5" PointX="16.375" PointY="21.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickOrderDTL" Width="1.5" PointX="21.75" PointY="51.5" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickOrderDTL_IOMaster" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickingDetails_ItemStatus" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickingDetails_Warehouse" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickOrderDTL_ProductDetails" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickTote_PickOrderDTL" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickOrderHD" Width="1.5" PointX="22" PointY="40.875" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickOrderHD_CostCenter" />
+        <AssociationConnector Association="PTGwmsModel.FK_Pickings_Customers" />
+        <AssociationConnector Association="PTGwmsModel.FK_Pickings_Owners" />
+        <AssociationConnector Association="PTGwmsModel.FK_Pickings_PickingType" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickingDetails_Pickings" />
+        <AssociationConnector Association="PTGwmsModel.FK_Pickings_Transports" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_PickLocationSel" Width="1.5" PointX="22.375" PointY="8.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.RcvRunning" Width="1.5" PointX="22.375" PointY="14.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.V_PickOrderPosted" Width="1.5" PointX="22.375" PointY="17.75" />
+        <EntityTypeShape EntityType="PTGwmsModel.Users" Width="1.5" PointX="14.25" PointY="56.125" />
+        <AssociationConnector Association="PTGwmsModel.FK_Users_Company" />
+        <AssociationConnector Association="PTGwmsModel.FK_OwnerAccess_Users" />
+        <AssociationConnector Association="PTGwmsModel.FK_Users_Role" />
+        <AssociationConnector Association="PTGwmsModel.FK_WarehouseAccess_Users" />
+        <EntityTypeShape EntityType="PTGwmsModel.PickLocation" Width="1.5" PointX="24.5" PointY="46.125" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickLocation_IssueSum" />
+        <AssociationConnector Association="PTGwmsModel.FK_PickLocation_Locations" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
