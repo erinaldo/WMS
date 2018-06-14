@@ -103,7 +103,7 @@
 
     Private Sub btSave_Click(sender As Object, e As EventArgs) Handles btSave.Click
         If tbUnit.Text = "" Then
-            MessageBox.Show("wกรุณาป้อน หน่วยนับ", "แจ้งเตือน", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("555กรุณาป้อน หน่วยนับ", "แจ้งเตือน", MessageBoxButtons.OK, MessageBoxIcon.Error)
             tbUnit.Focus()
             Exit Sub
         End If
